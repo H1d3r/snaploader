@@ -10,7 +10,7 @@
 * now, moving to running the shellcode, i used the same tech, with `PSS_THREAD_ENTRY` to get the current context of the thread [here](https://gitlab.com/ORCA666/snaploader/-/blob/main/SnapLoader/Snap.h#L177) and then overwriting it with our base address and using `SetThreadContext` to set the context we modified, since our process is suspended, no need to use `ResumeThread` or `SuspendThread` .
 
 # DEMO
-<h6 align="center"> <i>#idk if it is 100% bypass, rate it </i>  </h6>
+<h6 align="center"> <i>idk if it is 100% bypass, rate it </i>  </h6>
 ![demo](https://gitlab.com/ORCA666/snaploader/-/raw/main/images/Inkedbypassing_peseive_LI.jpg)
 
 # THANKS FOR:
